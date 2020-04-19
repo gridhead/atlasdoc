@@ -10,7 +10,9 @@ Forensics Oriented Reporting Group Under Encryption
 > But you cannot fool *all* the people *all* the time.
 
 ## Introduction
-FORGE or Forensics Oriented Reporting Group Under Encryption is a network system for secure transmission of directives among two or multiple authentic users. It uses asymmetric key cryptography to ensure an end-to-end encryption scenario.
+FORGE or Forensics Oriented Reporting Group Under Encryption is a network system for secure
+transmission of directives among two or multiple authentic users. It uses asymmetric key 
+cryptography to ensure an end-to-end encryption scenario.
 
 ## Features
 * Can be easily adopted in any network using client-server model
