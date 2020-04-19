@@ -4,26 +4,24 @@ site_author: Akashdeep Dhar
 site_url: https://atlasdoc.netlify.app
 theme:
   name: material
-  features:
-    - tabs
   palette:
     primary: teal
     accent: teal
 nav:
-    - Home: index.md
-    - About: aboutpge.md
-    - NFA-String Parser: nfastrps.md
-    - RE2FA Convertor: re2facnv.md
-    - SPEED: speedinf.md
-    - Sanctuary: snctuary.md
-    - FORGE: forgeinf.md
-    - Data Extraction: dataextr.md
-    - Inquizition: inquizdb.md
-    - Pignus FVD: pgnusfvd.md
-    - Pignus AIP: pgnusaip.md
-    - Super Mario: oglmario.md
-    - ToxicIMS: toxicims.md
-    - Foliage: folqtgui.md
-    - Wisdom: wisdomqt.md
-    - PharmaDB Client: pharmacl.md
-    - PharmaDB Store: pharmast.md
+    - Start here: index.md
+    - About me: about.md
+    - NFA-String Parser: nfasp.md
+    - RE2FA Convertor: re2fa.md
+    - SPEED: speed.md
+    - Sanctuary: sctry.md
+    - FORGE: forge.md
+    - Data Extraction: dextr.md
+    - Inquizition: inqzt.md
+    - Pignus FVD: pgfvd.md
+    - Pignus AIP: pgaip.md
+    - Super Mario: oglmr.md
+    - ToxicIMS: txims.md
+    - Foliage: folqt.md
+    - Wisdom: wdmqt.md
+    - PharmaDB Client: tkpcl.md
+    - PharmaDB Store: tkpst.md
