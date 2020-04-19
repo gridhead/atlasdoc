@@ -1,0 +1,26 @@
+site_name: Atlas
+theme:
+  name: material
+  features:
+    - tabs
+  palette:
+    primary: teal
+    accent: teal
+nav:
+    - Home: homepage.md
+    - About: aboutpge.md
+    - NFA-String Parser: nfastrps.md
+    - RE2FA Convertor: re2facnv.md
+    - SPEED: speedinf.md
+    - Sanctuary: snctuary.md
+    - FORGE: forgeinf.md
+    - Data Extraction: dataextr.md
+    - Inquizition: inquizdb.md
+    - Pignus FVD: pgnusfvd.md
+    - Pignus AIP: pgnusaip.md
+    - Super Mario: oglmario.md
+    - ToxicIMS: toxicims.md
+    - Foliage: folqtgui.md
+    - Wisdom: wisdomqt.md
+    - PharmaDB Client: pharmacl.md
+    - PharmaDB Store: pharmast.md
