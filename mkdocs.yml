@@ -1,5 +1,5 @@
 site_name: Atlas
-site_description: A catalog of all the applications and services I build
+site_description: A catalog of all the applications and services I maintain
 site_author: Akashdeep Dhar
 site_url: https://atlasdoc.netlify.app
 theme:
@@ -7,21 +7,24 @@ theme:
   palette:
     primary: teal
     accent: teal
+  features:
+    - instant
 nav:
-    - Start here: index.md
-    - About me: about.md
-    - NFA-String Parser: nfasp.md
-    - RE2FA Convertor: re2fa.md
-    - SPEED: speed.md
-    - Sanctuary: sctry.md
-    - FORGE: forge.md
-    - Data Extraction: dextr.md
-    - Inquizition: inqzt.md
-    - Pignus FVD: pgfvd.md
-    - Pignus AIP: pgaip.md
-    - Super Mario: oglmr.md
-    - ToxicIMS: txims.md
-    - Foliage: folqt.md
-    - Wisdom: wdmqt.md
-    - PharmaDB Client: tkpcl.md
-    - PharmaDB Store: tkpst.md
+  - Start here: index.md
+  - Applications:
+      - NFA-String Parser: nfasp.md
+      - RE2FA Converter: re2fa.md
+      - Pignus FVD: pgfvd.md
+      - Pignus AIP: pgaip.md
+      - Super Mario: oglmr.md
+      - ToxicIMS: txims.md
+      - Foliage: folqt.md
+      - Wisdom: wdmqt.md
+      - PharmaDB Client: tkpcl.md
+      - PharmaDB Store: tkpst.md
+  - Services:
+      - Sanctuary: sctry.md
+      - FORGE: forge.md
+      - SPEED: speed.md
+      - Data Extraction: dextr.md
+  - About me: about.md
