@@ -1,4 +1,7 @@
 site_name: Atlas
+site_description: A catalog of all the applications and services I build
+site_author: Akashdeep Dhar
+site_url: https://atlasdoc.netlify.app
 theme:
   name: material
   features:
@@ -7,7 +10,7 @@ theme:
     primary: teal
     accent: teal
 nav:
-    - Home: homepage.md
+    - Home: index.md
     - About: aboutpge.md
     - NFA-String Parser: nfastrps.md
     - RE2FA Convertor: re2facnv.md
