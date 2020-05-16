@@ -1,33 +1,55 @@
-# Welcome to Atlas
+# ToxicIMS
+Inventory Management System for Information Archives
 
-## Hello
+## Requirements
+1. PyQt 5
+2. SQLite3 for Python 3
+3. Qt Designer
+4. Any code editor
 
-This is a catalog of all the applications and services that I develop and maintain. Feel free
-to browse through them and if you like one, please download and try them out. Contribute to the
-development of these applications if you find them worth your while.
+## Introduction
+This is a user friendly database solution for managing inventories of information archives. It uses Qt 5.12.1 GUI framework and SQLite3 database. One can easily perform CRUD operations for number of columns like **books**, **authors**, **publishers**, **categories**, **users** and much more along with possibilities of automation of operations like **lending**, **borrowing**, **transactions** etc.
 
-## Plans
-* **Documented** - 
-Detailed information is provided on the codebase to help you get started with contribution or 
-forking quickly and easily. Diagrams and schematics are provided wherever necessary for better
-understanding of how everything works.
-* **Supported** - 
-For a period of six months, service maintenance is provided for a project when all the bugs are
-fixed and new features are provided. Beyond this duration, a new rendition of the project would
-be worked on with much better features.
-* **Available** - 
-Applications and services are available and deployable everywhere irrespective of which region
-or timezone you belong to. As the projects are lightweight, you can pretty much install and 
-serve them from your own personal devices.
-* **Satisfaction** - 
-The projects are made in such a way that even you would agree that they look good and feel 
-effective much to your satisfaction. Furthermore, quality-of-life updates and regular bug fixes
-ensure that you keep feeling that way.
-* **Download** - 
-All the projects available on this catalog are available for download totally free-of-cost
-without any kind of hidden charges, advertisements or concealed tracking. It should be totally
-free if it is really meant to be.
-* **Contribution** - 
-As much as I idolize the open-source community for making me who I am, I always feel like giving
-back to them just like they did - unconditionally. Every project available here is free, open
-source and appreciates your contribution.
+## Screenshots
+
+### Add new books
+![Add new books](pics/txims/makebook.png)
+
+### Add new categories
+![Add new categories](pics/txims/makecatg.png)
+
+### Add new operations
+![Add new operations](pics/txims/makeoper.png)
+
+### Add new publishers
+![Add new publishers](pics/txims/makepubl.png)
+
+### Add new users
+![Add new users](pics/txims/makeuser.png)
+
+### Add new authors
+![Add new authors](pics/txims/makeauth.png)
+
+### Edit existing commodities
+![Edit existing commodities](pics/txims/editcomd.png)
+
+### Edit existing archives
+![Edit existing archives](pics/txims/editarch.png)
+
+### Edit existing publishers
+![Edit existing publishers](pics/txims/editpubl.png)
+
+### Edit existing users
+![Edit existing users](pics/txims/edituser.png)
+
+### Edit existing authors
+![Edit existing authors](pics/txims/editauth.png)
+
+### About page
+![About page](pics/txims/aboutpge.png)
+
+### Statistics menu (Experimental)
+![Statistics menu](pics/txims/statmenu.png)
+
+### Theming menu (Experimental)
+![Theming menu](pics/txims/themeing.png)
