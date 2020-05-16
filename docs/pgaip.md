@@ -17,16 +17,16 @@ A Python GUI application for scanning URLs and domains for safety
 11. Give stars to the repository if it was helpful
 
 ## To-do
-- [X] Build GUI and prototype UX for loopholes
-- [X] Add function on single URLs for URL scanning
-- [X] Add function on single URLs for URL reports
-- [X] Add function on single URLs for domain reports
-- [X] Add timer function to note the duration for scanning
-- [X] Implement table iteration for list-of-tuples
-- [X] Add clear button for all line edit boxes
-- [ ] Add fixes for unresolved API request errors
-- [ ] Cleanup and optimise code base
-- [ ] Make miscellaneous bug fixes
+- **`COMPLETED!`** Build GUI and prototype UX for loopholes
+- **`COMPLETED!`** Add function on single URLs for URL scanning
+- **`COMPLETED!`** Add function on single URLs for URL reports
+- **`COMPLETED!`** Add function on single URLs for domain reports
+- **`COMPLETED!`** Add timer function to note the duration for scanning
+- **`COMPLETED!`** Implement table iteration for list-of-tuples
+- **`COMPLETED!`** Add clear button for all line edit boxes
+- **`INCOMPLETE`** Add fixes for unresolved API request errors
+- **`INCOMPLETE`** Cleanup and optimise code base
+- **`INCOMPLETE`** Make miscellaneous bug fixes
 
 ## Changelog
 
@@ -68,17 +68,23 @@ A Python GUI application for scanning URLs and domains for safety
 _To be decided_
 
 ## Screenshots
-* Queue URL scanning (Basic layout, v0.05 onwards)
+
+### Queue URL scanning (Basic layout, v0.05 onwards)
 ![Queue URL scanning (Basic layout, v0.05 onwards)](pics/pgaip/ssurlsca.png)
-* Queue URL scanning (Results from `t0xic0der.netlify.app`, v0.05 onwards)
+
+### Queue URL scanning (Results from `t0xic0der.netlify.app`, v0.05 onwards)
 ![Queue URL scanning (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/pgaip/rpurlsca.png)
-* Get URL report (Basic layout, v0.05 onwards)
+
+### Get URL report (Basic layout, v0.05 onwards)
 ![Get URL report (Basic layout, v0.05 onwards)](pics/pgaip/ssurlrep.png)
-* Get URL report (Results from `t0xic0der.netlify.app`, v0.05 onwards)
+
+### Get URL report (Results from `t0xic0der.netlify.app`, v0.05 onwards)
 ![Get URL report (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/pgaip/rpurlrep.png)
-* Get domain report (Basic layout, v0.05 onwards)
+
+### Get domain report (Basic layout, v0.05 onwards)
 ![Get domain report (Basic layout, v0.05 onwards)](pics/pgaip/ssdomrep.png)
-* Get domain report (Results from `t0xic0der.netlify.app`, v0.05 onwards)
+
+### Get domain report (Results from `t0xic0der.netlify.app`, v0.05 onwards)
 ![Get domain report (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/pgaip/rpdomrep.png)
 
 ## Bugs
