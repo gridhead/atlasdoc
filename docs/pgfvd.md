@@ -1,33 +1,63 @@
-# Welcome to Atlas
+# Pignus Framework Vulnerability Detector
+Version 0.03
 
-## Hello
+A Python GUI application for scanning websites for their frameworks and detecting vulnerabilities off them.
 
-This is a catalog of all the applications and services that I develop and maintain. Feel free
-to browse through them and if you like one, please download and try them out. Contribute to the
-development of these applications if you find them worth your while.
+## Usage 
+1. Install and upgrade **virtualenv** if not already done by executing ```pip3 install virtualenv --user```
+2. Clone the repository on your local drive and make it your current working directory.
+3. Create a virtual environment by executing ```virtualenv venv```
+4. Activate the virtual environment by executing ```source venv/bin/activate```
+5. Install all dependencies for the project by executing ```pip3 install -r requirements.txt```
+6. Run the project by executing ```python3 fwvulgui.py```
+7. Scan URLs for framework one-by-one by typing them in the textbox.
+8. Scan URLs for framework in a batch by indicating a text file storing them linewise.
+9. When done tinkering, deactivate the virtual environment by executing ```deactivate```
+0. Give stars to the repository if it was helpful
 
-## Plans
-* **Documented** - 
-Detailed information is provided on the codebase to help you get started with contribution or 
-forking quickly and easily. Diagrams and schematics are provided wherever necessary for better
-understanding of how everything works.
-* **Supported** - 
-For a period of six months, service maintenance is provided for a project when all the bugs are
-fixed and new features are provided. Beyond this duration, a new rendition of the project would
-be worked on with much better features.
-* **Available** - 
-Applications and services are available and deployable everywhere irrespective of which region
-or timezone you belong to. As the projects are lightweight, you can pretty much install and 
-serve them from your own personal devices.
-* **Satisfaction** - 
-The projects are made in such a way that even you would agree that they look good and feel 
-effective much to your satisfaction. Furthermore, quality-of-life updates and regular bug fixes
-ensure that you keep feeling that way.
-* **Download** - 
-All the projects available on this catalog are available for download totally free-of-cost
-without any kind of hidden charges, advertisements or concealed tracking. It should be totally
-free if it is really meant to be.
-* **Contribution** - 
-As much as I idolize the open-source community for making me who I am, I always feel like giving
-back to them just like they did - unconditionally. Every project available here is free, open
-source and appreciates your contribution.
+## To-do
+- [X] Build GUI and prototype UX for loopholes
+- [X] Add scanning function for single URL through text entry
+- [X] Add scanning function for multiple URLs through file reading
+- [X] Add timer function to note the duration for scanning
+- [X] List down all tracked frameworks
+- [X] Add clear button for all line edit boxes
+- [ ] Add file picker module for text files
+- [ ] Add scrapped data about vulnerabilities
+- [ ] List down vulnerabilities for all tracked frameworks
+- [ ] Make miscellaneous bug fixes
+
+## Changelog
+
+### v0.01
+1. Initial build
+2. Built a robust GUI and checked loopholes
+3. Resolved dependencies on ```data.json```
+4. Added functionality to scan single URL
+
+### v0.02
+1. Added functionality to scan multiple URLs
+2. Added timer function for scan time calculation
+3. Handled exception where URLs could not be found
+4. Added warning messages
+
+### v0.03 (Current)
+1. Switched fontface to improve legibility
+2. Added clear button for all line edit boxes
+3. Added message for timing and scan success
+4. Added branched dictionary for multiple URLs
+
+### v0.04 (Oncoming)
+_To be decided_
+
+## Screenshots
+* Default window layout with no action (v0.03 onwards)
+![Default window layout with no action (v0.03 onwards)](pics/pgfvd/fwvuldef.png)
+* Single URL scan for framework detection (Results from `t0xic0der.netlify.app`) (v0.03 onwards)
+![Single URL scan for framework detection (Results from `t0xic0der.netlify.app`) (v0.03 onwards)](pics/pgfvd/fwvultox.png)
+* Multiple URL scan through batch file input (v0.03 onwards)
+![Multiple URL scan through batch file input (v0.03 onwards)](pics/pgfvd/fwvulfil.png)
+
+## Bugs
+1. Scanning some URLs might take very long
+2. Some domains have abstracted frameworks so a scan results nothing
