@@ -3,10 +3,7 @@ site_description: A catalog of all the applications and services I maintain
 site_author: Akashdeep Dhar
 site_url: https://atlasdoc.netlify.app
 theme:
-  name: material
-  palette:
-    primary: teal
-    accent: teal
+  name: lumen
 nav:
   - Start here: index.md
   - Applications:
