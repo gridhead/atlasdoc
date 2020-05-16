@@ -13,6 +13,7 @@ This is a simple, beautiful and user-friendly GUI Wikipedia application which ta
 
 ## Features
 At this point of time, only a limited set of features work with an unreasonably high (but tolerable) waiting period.
+
 1. Main content of the article
 2. Summary of the article
 3. Suggested articles for the request
