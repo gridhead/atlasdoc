@@ -16,16 +16,16 @@ A Python GUI application for scanning websites for their frameworks and detectin
 0. Give stars to the repository if it was helpful
 
 ## To-do
-- [X] Build GUI and prototype UX for loopholes
-- [X] Add scanning function for single URL through text entry
-- [X] Add scanning function for multiple URLs through file reading
-- [X] Add timer function to note the duration for scanning
-- [X] List down all tracked frameworks
-- [X] Add clear button for all line edit boxes
-- [ ] Add file picker module for text files
-- [ ] Add scrapped data about vulnerabilities
-- [ ] List down vulnerabilities for all tracked frameworks
-- [ ] Make miscellaneous bug fixes
+- `COMPLETED!` Build GUI and prototype UX for loopholes
+- `COMPLETED!` Add scanning function for single URL through text entry
+- `COMPLETED!` Add scanning function for multiple URLs through file reading
+- `COMPLETED!` Add timer function to note the duration for scanning
+- `COMPLETED!` List down all tracked frameworks
+- `COMPLETED!` Add clear button for all line edit boxes
+- `INCOMPLETE` Add file picker module for text files
+- `INCOMPLETE` Add scrapped data about vulnerabilities
+- `INCOMPLETE` List down vulnerabilities for all tracked frameworks
+- `INCOMPLETE` Make miscellaneous bug fixes
 
 ## Changelog
 
@@ -51,11 +51,14 @@ A Python GUI application for scanning websites for their frameworks and detectin
 _To be decided_
 
 ## Screenshots
-* Default window layout with no action (v0.03 onwards)
+
+### Default window layout with no action (v0.03 onwards)
 ![Default window layout with no action (v0.03 onwards)](pics/pgfvd/fwvuldef.png)
-* Single URL scan for framework detection (Results from `t0xic0der.netlify.app`) (v0.03 onwards)
+
+### Single URL scan for framework detection (Results from `t0xic0der.netlify.app`) (v0.03 onwards)
 ![Single URL scan for framework detection (Results from `t0xic0der.netlify.app`) (v0.03 onwards)](pics/pgfvd/fwvultox.png)
-* Multiple URL scan through batch file input (v0.03 onwards)
+
+### Multiple URL scan through batch file input (v0.03 onwards)
 ![Multiple URL scan through batch file input (v0.03 onwards)](pics/pgfvd/fwvulfil.png)
 
 ## Bugs
