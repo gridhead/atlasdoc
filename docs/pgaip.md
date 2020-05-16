@@ -1,33 +1,90 @@
-# Welcome to Atlas
+# Pignus Agent for Internet Protection 
+Version 0.05
 
-## Hello
+A Python GUI application for scanning URLs and domains for safety 
 
-This is a catalog of all the applications and services that I develop and maintain. Feel free
-to browse through them and if you like one, please download and try them out. Contribute to the
-development of these applications if you find them worth your while.
+## Usage 
+1.  Install and upgrade **virtualenv** if not already done by executing ```pip3 install virtualenv --user```
+2.  Clone the repository on your local drive and make it your current working directory.
+3.  Create a virtual environment by executing ```virtualenv venv```
+4.  Activate the virtual environment by executing ```source venv/bin/activate```
+5.  Install all dependencies for the project by executing ```pip3 install -r requirements.txt```
+6.  Run the project by executing ```python3 pigipgui.py```
+7.  Sign up at VirusTotal website to get your own public API key.
+8.  Create a new file called `virustotal.key` and store your key there.
+9.  Queue URL scanning, get URL report or get domain report of your target.
+10. When done tinkering, deactivate the virtual environment by executing ```deactivate```
+11. Give stars to the repository if it was helpful
 
-## Plans
-* **Documented** - 
-Detailed information is provided on the codebase to help you get started with contribution or 
-forking quickly and easily. Diagrams and schematics are provided wherever necessary for better
-understanding of how everything works.
-* **Supported** - 
-For a period of six months, service maintenance is provided for a project when all the bugs are
-fixed and new features are provided. Beyond this duration, a new rendition of the project would
-be worked on with much better features.
-* **Available** - 
-Applications and services are available and deployable everywhere irrespective of which region
-or timezone you belong to. As the projects are lightweight, you can pretty much install and 
-serve them from your own personal devices.
-* **Satisfaction** - 
-The projects are made in such a way that even you would agree that they look good and feel 
-effective much to your satisfaction. Furthermore, quality-of-life updates and regular bug fixes
-ensure that you keep feeling that way.
-* **Download** - 
-All the projects available on this catalog are available for download totally free-of-cost
-without any kind of hidden charges, advertisements or concealed tracking. It should be totally
-free if it is really meant to be.
-* **Contribution** - 
-As much as I idolize the open-source community for making me who I am, I always feel like giving
-back to them just like they did - unconditionally. Every project available here is free, open
-source and appreciates your contribution.
+## To-do
+- [X] Build GUI and prototype UX for loopholes
+- [X] Add function on single URLs for URL scanning
+- [X] Add function on single URLs for URL reports
+- [X] Add function on single URLs for domain reports
+- [X] Add timer function to note the duration for scanning
+- [X] Implement table iteration for list-of-tuples
+- [X] Add clear button for all line edit boxes
+- [ ] Add fixes for unresolved API request errors
+- [ ] Cleanup and optimise code base
+- [ ] Make miscellaneous bug fixes
+
+## Changelog
+
+### v0.01
+1. Initial build
+2. Built a robust GUI and checked loopholes
+3. Added functionality to queue URL scan
+4. Added way of dealing with APIKEY externally
+
+### v0.02
+1. Resolved API request errors from queue URL scan
+2. Added timer function for queue URL scan
+3. Handled exception where URLs could not be found
+4. Handled exception where API key was not provided
+5. Handled exception where API was overused
+
+### v0.03
+1. Added warning messages
+2. Added functionality to get URL report
+3. Switched fontface to improve legibility
+4. Added clear button for all line edit boxes
+5. Added message for timing and scan success
+
+### v0.04
+1. Resolved API request errors for get URL report
+2. Added functionality to get domain report
+3. Implemented table iterations for list-of-tuples
+4. Fix for URLs which are blocked by the ISPs
+5. Fix for timeout errors
+
+### v0.05 (Current)
+1. Cleaned up code from debug messages
+2. Added a new set of fonts for rastering
+3. Restructured `requirements.txt` for distribution
+4. Added generic fix for unindexed errors
+5. Fix for IndexError on table structuring
+
+### v0.06 (Oncoming)
+_To be decided_
+
+## Screenshots
+* Queue URL scanning (Basic layout, v0.05 onwards)
+![Queue URL scanning (Basic layout, v0.05 onwards)](pics/pgaip/ssurlsca.png)
+* Queue URL scanning (Results from `t0xic0der.netlify.app`, v0.05 onwards)
+![Queue URL scanning (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/pgaip/rpurlsca.png)
+* Get URL report (Basic layout, v0.05 onwards)
+![Get URL report (Basic layout, v0.05 onwards)](pics/pgaip/ssurlrep.png)
+* Get URL report (Results from `t0xic0der.netlify.app`, v0.05 onwards)
+![Get URL report (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/pgaip/rpurlrep.png)
+* Get domain report (Basic layout, v0.05 onwards)
+![Get domain report (Basic layout, v0.05 onwards)](pics/pgaip/ssdomrep.png)
+* Get domain report (Results from `t0xic0der.netlify.app`, v0.05 onwards)
+![Get domain report (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/pgaip/rpdomrep.png)
+
+## Bugs
+1. Some domains cannot be scanned due to ISP blockage or denial from the API provider.
+2. Populating tables with data might take some time on single-core PCs.
+3. Random API errors might occur some time - Try another URL first.
+
+## Contribute
+Fork, add, build and make a PR. You know the drill.
