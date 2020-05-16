@@ -2,6 +2,6 @@
 publish = "atlasdoc"
 command = """
 pip3 install mkdocs &&
-pip3 install mkdocs-material &&
+pip3 install mkdocs-bootswatch &&
 mkdocs build -d atlasdoc
 """
