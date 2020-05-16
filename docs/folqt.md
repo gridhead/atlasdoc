@@ -1,33 +1,35 @@
-# Welcome to Atlas
+# Foliage
+A beautiful and user-friendly GUI weather application
 
-## Hello
+### Requirements
+1. PyQt 5
+2. Requests
+3. JSON for Python
+4. OpenWeatherMap Free API Key
+5. Qt Designer
+6. Any code editor
+7. Active internet connection
 
-This is a catalog of all the applications and services that I develop and maintain. Feel free
-to browse through them and if you like one, please download and try them out. Contribute to the
-development of these applications if you find them worth your while.
+### Introduction
+This is a simple, beautiful and user-friendly GUI weather application which takes OpenWeatherMap API key and the city that you are interested in to find advanced weather information of that place. 
 
-## Plans
-* **Documented** - 
-Detailed information is provided on the codebase to help you get started with contribution or 
-forking quickly and easily. Diagrams and schematics are provided wherever necessary for better
-understanding of how everything works.
-* **Supported** - 
-For a period of six months, service maintenance is provided for a project when all the bugs are
-fixed and new features are provided. Beyond this duration, a new rendition of the project would
-be worked on with much better features.
-* **Available** - 
-Applications and services are available and deployable everywhere irrespective of which region
-or timezone you belong to. As the projects are lightweight, you can pretty much install and 
-serve them from your own personal devices.
-* **Satisfaction** - 
-The projects are made in such a way that even you would agree that they look good and feel 
-effective much to your satisfaction. Furthermore, quality-of-life updates and regular bug fixes
-ensure that you keep feeling that way.
-* **Download** - 
-All the projects available on this catalog are available for download totally free-of-cost
-without any kind of hidden charges, advertisements or concealed tracking. It should be totally
-free if it is really meant to be.
-* **Contribution** - 
-As much as I idolize the open-source community for making me who I am, I always feel like giving
-back to them just like they did - unconditionally. Every project available here is free, open
-source and appreciates your contribution.
+### Features
+At this point of time, this is the set of features that work with a pretty good waiting period.
+1. **Location information** - Original name of the city with country name along with precise coordinates.
+2. **Wind data** - Wind speed (in kilometers per hour) and direction (in degrees)
+3. **Pressure data** - Average pressure, pressure at sea level and ground level (in pascals)
+4. **Temperature data** - Average temperature with minimum and maximum (in celcius and kelvin)
+5. **Climate information** - Main and description of current climate with humidity level
+6. **Solar data** - Timezone data (in UTC offset) with sunrise and sunset local timings.
+
+### Bugs/Drawbacks
+1. **Unprecedented blocking** - Requests more than the given limit in free tiered OpenWeatherMap accounts result in a generalised error without an indication of blocking.
+2. **Unresolved exception** - Some search requests result in unresolved exception which are handled generally but a workaround is yet to be provided to the user.
+3. **Messed up fontfaces** - At some places, paddings and margins need to be provided judiciously in order to make sure that suspended and headed regions are visible.
+
+### Screenshots
+Testing Default
+![Default Screen](pics/folqt/sdefault.png)
+
+Testing Pune, IN
+![Breakpoint Screen](pics/folqt/punecity.png)
