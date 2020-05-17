@@ -70,22 +70,22 @@ _To be decided_
 ## Screenshots
 
 ### Queue URL scanning (Basic layout, v0.05 onwards)
-![Queue URL scanning (Basic layout, v0.05 onwards)](pics/pgaip/ssurlsca.png)
+![Queue URL scanning (Basic layout, v0.05 onwards)](pics/apps/pgaip/ssurlsca.png)
 
 ### Queue URL scanning (Results from `t0xic0der.netlify.app`, v0.05 onwards)
-![Queue URL scanning (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/pgaip/rpurlsca.png)
+![Queue URL scanning (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/apps/pgaip/rpurlsca.png)
 
 ### Get URL report (Basic layout, v0.05 onwards)
-![Get URL report (Basic layout, v0.05 onwards)](pics/pgaip/ssurlrep.png)
+![Get URL report (Basic layout, v0.05 onwards)](pics/apps/pgaip/ssurlrep.png)
 
 ### Get URL report (Results from `t0xic0der.netlify.app`, v0.05 onwards)
-![Get URL report (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/pgaip/rpurlrep.png)
+![Get URL report (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/apps/pgaip/rpurlrep.png)
 
 ### Get domain report (Basic layout, v0.05 onwards)
-![Get domain report (Basic layout, v0.05 onwards)](pics/pgaip/ssdomrep.png)
+![Get domain report (Basic layout, v0.05 onwards)](pics/apps/pgaip/ssdomrep.png)
 
 ### Get domain report (Results from `t0xic0der.netlify.app`, v0.05 onwards)
-![Get domain report (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/pgaip/rpdomrep.png)
+![Get domain report (Results from `t0xic0der.netlify.app`, v0.05 onwards)](pics/apps/pgaip/rpdomrep.png)
 
 ## Bugs
 1. Some domains cannot be scanned due to ISP blockage or denial from the API provider.

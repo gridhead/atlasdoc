@@ -2,7 +2,7 @@
 A Python GUI application for converting regular expressions to finite automata
 
 ## In works
-![ExpressionCalculation](pics/re2fa/exprphot.png)
+![ExpressionCalculation](pics/apps/re2fa/exprphot.png)
 
 ## How to use?
 1. Install and upgrade **virtualenv** if not already done by executing ```pip3 install virtualenv --user```

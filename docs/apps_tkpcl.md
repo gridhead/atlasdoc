@@ -36,40 +36,40 @@ Create a database in MySQL named "PharmaDBTest" consisting of the following rela
 ## Screenshots
 
 ### Database connection
-![Database connection](pics/tkpcl/connexon.png)
+![Database connection](pics/apps/tkpcl/connexon.png)
 
 ### Landing page
-![Landing page](pics/tkpcl/mainmenu.png)
+![Landing page](pics/apps/tkpcl/mainmenu.png)
 
 ### Creation menu
-![Creation menu](pics/tkpcl/makemenu.png)
+![Creation menu](pics/apps/tkpcl/makemenu.png)
 
 ### Add new medicines
-![Add new medicines](pics/tkpcl/makemeds.png)
+![Add new medicines](pics/apps/tkpcl/makemeds.png)
 
 ### Add new manufacturers
-![Add new manufacturers](pics/tkpcl/makemfgs.png)
+![Add new manufacturers](pics/apps/tkpcl/makemfgs.png)
 
 ### Add new medicine types
-![Add new medicine types](pics/tkpcl/maketype.png)
+![Add new medicine types](pics/apps/tkpcl/maketype.png)
 
 ### Add new warehouses
-![Add new warehouses](pics/tkpcl/makeware.png)
+![Add new warehouses](pics/apps/tkpcl/makeware.png)
 
 ### Updating menu
-![Updating menu](pics/tkpcl/updtrcrd.png)
+![Updating menu](pics/apps/tkpcl/updtrcrd.png)
 
 ### Update existing medicines
-![Update exising medicines](pics/tkpcl/updtmeds.png)
+![Update exising medicines](pics/apps/tkpcl/updtmeds.png)
 
 ### Update existing warehouses
-![Update existing warehouses](pics/tkpcl/updtware.png)
+![Update existing warehouses](pics/apps/tkpcl/updtware.png)
 
 ### Remove menu
-![Remove menu](pics/tkpcl/rmovrcrd.png)
+![Remove menu](pics/apps/tkpcl/rmovrcrd.png)
 
 ### Balance check menu
-![Balance check menu](pics/tkpcl/chekmoni.png)
+![Balance check menu](pics/apps/tkpcl/chekmoni.png)
 
 ## Disclaimer
 This application is not intended for use in production environment. It is still a work-in-progress and future updates may break your current operation. 

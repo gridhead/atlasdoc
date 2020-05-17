@@ -31,7 +31,7 @@ At this point of time, this is the set of features that work with a pretty good 
 ## Screenshots
 
 ###Testing Default
-![Default Screen](pics/folqt/sdefault.png)
+![Default Screen](pics/apps/folqt/sdefault.png)
 
 ### Testing Pune, IN
-![Breakpoint Screen](pics/folqt/punecity.png)
+![Breakpoint Screen](pics/apps/folqt/punecity.png)

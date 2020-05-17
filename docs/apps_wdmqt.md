@@ -32,7 +32,7 @@ At this point of time, only a limited set of features work with an unreasonably 
 ## Screenshots
 
 ### Testing Default
-![Default Screen](pics/wdmqt/sdefault.png)
+![Default Screen](pics/apps/wdmqt/sdefault.png)
 
 ### Testing Tom Clancy's Ghost Recon Breakpoint
-![Breakpoint Screen](pics/wdmqt/brekpint.png)
+![Breakpoint Screen](pics/apps/wdmqt/brekpint.png)
