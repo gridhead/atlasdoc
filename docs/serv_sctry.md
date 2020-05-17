@@ -19,22 +19,22 @@ A secure synchronous lightweight chatroom with zero logging and total transience
 ## Screenshots
 
 ### Homepage
-![Homepage](pics/sctry/homepage.png)
+![Homepage](pics/serv/sctry/homepage.png)
 
 ### Making a chatroom
-![Making a chatroom](pics/sctry/makeroom.png)
+![Making a chatroom](pics/serv/sctry/makeroom.png)
 
 ### Joining a chatroom
-![Joining a chatroom](pics/sctry/joinroom.png)
+![Joining a chatroom](pics/serv/sctry/joinroom.png)
 
 ### Active chatroom
-![Active chatroom](pics/sctry/chatroom.png)
+![Active chatroom](pics/serv/sctry/chatroom.png)
 
 ### Purging a chatroom
-![Purging a chatroom](pics/sctry/shutroom.png)
+![Purging a chatroom](pics/serv/sctry/shutroom.png)
 
 ### Logging out
-![Logging out](pics/sctry/sesskill.png)
+![Logging out](pics/serv/sctry/sesskill.png)
 
 ### Accessing invalidated session
-![Accessing invalidated session](pics/sctry/exprsess.png)
+![Accessing invalidated session](pics/serv/sctry/exprsess.png)
