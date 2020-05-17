@@ -3,7 +3,7 @@ v0.01
 
 Super Mario Game implemented in C++ using OpenGL and SDL.
 
-![Screenshots](pics/oglmr/sdefault.png)
+![Screenshots](pics/apps/oglmr/sdefault.png)
 
 ## Prerequisites
 You need `freeglut` and `SDL` libraries. 
