@@ -18,8 +18,8 @@ nav:
       - PharmaDB Client: tkpcl.md
       - PharmaDB Store: tkpst.md
   - Services:
-      - Sanctuary: sctry.md
-      - FORGE: forge.md
-      - SPEED: speed.md
-      - Data Extraction: dextr.md
+      - Sanctuary: serv_sctry.md
+      - FORGE: serv_forge.md
+      - SPEED: serv_speed.md
+      - Data Extraction: serv_dextr.md
   - About me: about.md
