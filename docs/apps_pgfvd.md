@@ -53,13 +53,13 @@ _To be decided_
 ## Screenshots
 
 ### Default window layout with no action (v0.03 onwards)
-![Default window layout with no action (v0.03 onwards)](pics/pgfvd/fwvuldef.png)
+![Default window layout with no action (v0.03 onwards)](pics/apps/pgfvd/fwvuldef.png)
 
 ### Single URL scan for framework detection (Results from `t0xic0der.netlify.app`) (v0.03 onwards)
-![Single URL scan for framework detection (Results from `t0xic0der.netlify.app`) (v0.03 onwards)](pics/pgfvd/fwvultox.png)
+![Single URL scan for framework detection (Results from `t0xic0der.netlify.app`) (v0.03 onwards)](pics/apps/pgfvd/fwvultox.png)
 
 ### Multiple URL scan through batch file input (v0.03 onwards)
-![Multiple URL scan through batch file input (v0.03 onwards)](pics/pgfvd/fwvulfil.png)
+![Multiple URL scan through batch file input (v0.03 onwards)](pics/apps/pgfvd/fwvulfil.png)
 
 ## Bugs
 1. Scanning some URLs might take very long
