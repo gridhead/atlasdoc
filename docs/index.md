@@ -26,5 +26,5 @@ As much as I idolize the open-source community for making me who I am, I always 
 
 ## Blogs
 
-* [**How to enable NVIDIA as Primary GPU on an Optimus-enabled Laptop**](index.md)  
+* [**How to enable NVIDIA as Primary GPU on an Optimus-enabled Laptop**](blog_prime.md)  
 Posted on 16th May 2020
