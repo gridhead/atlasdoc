@@ -4,7 +4,7 @@ Just made it into Fedora 32 the day before yesterday and I found it to be just a
 
 Now I have
 
-![](pics/blog/prime/primepc01.png)
+![](pics/blog/prime/primepc0.png)
 
 The graphics are being detected correctly. I also followed [this guide](https://rpmfusion.org/Howto/Optimus), especially the part where it talks about NVIDIA Prime and the configuration did not work the way it should have. I wanted the entire desktop session to be rendered using NVIDIA GPU but it puts it to use only when I explicitly ask it to. The GNOME ends up looking ugly and feeling jittery slow due to the abysmal performance of the Intel UHD630 graphics.
 
@@ -28,11 +28,15 @@ Run
 ```text
 sudo dnf update
 ```
-once to update all your packages first.
+once to update all your existing packages first.
+
+![](pics/blog/prime/primepc1.png)
 
 ## Step 2
 
 Then you need to add the **RPM Fusion repository for NVIDIA drivers**. To do that, open up **GNOME Software** and click on the **hamburger menu** (three horizontal lines) on the top-right corner. Then click on **Software Repositories** from the dropdown menu. There you will see this.
+
+![](pics/blog/prime/primepc2.png)
 
 Select **RPM Fusion for Fedora 32 - Nonfree - NVIDIA Driver** and **ENABLE** it. It requires elevated privileges so enter your password and it will be done.
 
@@ -44,6 +48,8 @@ sudo dnf update --refresh
 ```
 to fetch all available package updates from the newly added repository.
 
+![](pics/blog/prime/primepc3.png)
+
 ## Step 4
 
 Run
@@ -51,6 +57,8 @@ Run
 sudo dnf install gcc kernel-headers kernel-devel akmod-nvidia xorg-x11-drv-nvidia xorg-x11-drv-nvidia-libs xorg-x11-drv-nvidia-libs.i686
 ```
 to get the drivers from the RPM Fusion repository. This command will also end up installing its dependencies from both 32-bit and 64-bit architecture, taking upto almost 200-300MB of data download.
+
+![](pics/blog/prime/primepc4.png)
 
 Note that your terminal output for the above would look significantly different from that of what I have posted here. It is not showing any kind of installation because I have it all installed already on my laptop.
 
@@ -73,6 +81,8 @@ in succession. This would force the configuration to be read from the updated ke
 ## Step 7
 
 Wait for 3-5 minutes for the changes to take effect and then reboot your system. Once your system has started, go to the **About** page in the **Settings** application. You are likely to see the following output.
+
+![](pics/blog/prime/primepc5.png)
 
 This effectively means that the driver installation was successful, leading to the detection of two distinct video accelerators - internal and discrete. If you wanted to use the internal GPU for basic rendering - that is to render the desktop environment and stuff and use the discrete GPU for specific applications, you can stop here.
 
@@ -115,6 +125,8 @@ and make changes.
 
 The file should look like this. Do not panic if it looks sightly different.
 
+![](pics/blog/prime/primepc6.png)
+
 Look closely, I have added that line in both the sections.
 
 Save it using
@@ -137,20 +149,17 @@ Open up a terminal and type
 glxinfo | egrep "OpenGL vendor | OpenGL renderer"
 ```
 
+![](pics/blog/prime/primepc7.png)
+
 If every configuration was done right, it should show up your discrete GPU and not the internal one.
-
-Check on
-```text
-screenfetch
-```
-
-It should show your discrete GPU under the GPU name.
 
 Check in your Settings application. You would see something like this in the About page.
 
+![](pics/blog/prime/primepc8.png)
 
 You would see a lot to tinker in your NVIDIA X Server Settings application. Also the GPU would show activity in its utilization percentage to signify that it is actually working.
 
+![](pics/blog/prime/primepc9.png)
 
 ## Step 12
 If you were able to follow the instructions and come this far, you deserve a pat on your back. To be honest, a lot of my friends opt for Debian-based and Ubuntu-based distributions like Pop!_OS to ease the pain of installing NVIDIA drivers by themselves. Fedora is pure love and it is heart-breaking to see how limited documentation is available in this regard. As a consequence of minimal documentation and the futile pursuit of elitism, the community loses people to distributions which are much more friendlier to these aspects.
@@ -165,4 +174,4 @@ This thread would go inert due to inactivity so even if I would more than love t
 
 Please for the love of everything holy  
 Stay away from the writeup provided on this site  
-(https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/)
+[If-Not-True-Then-False's Fedora NVIDIA Guide](https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/)
