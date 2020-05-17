@@ -7,16 +7,16 @@ theme:
 nav:
   - Start here: index.md
   - Applications:
-      - NFA-String Parser: nfasp.md
-      - RE2FA Converter: re2fa.md
-      - Pignus FVD: pgfvd.md
-      - Pignus AIP: pgaip.md
-      - Super Mario: oglmr.md
-      - ToxicIMS: txims.md
-      - Foliage: folqt.md
-      - Wisdom: wdmqt.md
-      - PharmaDB Client: tkpcl.md
-      - PharmaDB Store: tkpst.md
+      - NFA-String Parser: apps_nfasp.md
+      - RE2FA Converter: apps_re2fa.md
+      - Pignus FVD: apps_pgfvd.md
+      - Pignus AIP: apps_pgaip.md
+      - Super Mario: apps_oglmr.md
+      - ToxicIMS: apps_txims.md
+      - Foliage: apps_folqt.md
+      - Wisdom: apps_wdmqt.md
+      - PharmaDB Client: apps_tkpcl.md
+      - PharmaDB Store: apps_tkpst.md
   - Services:
       - Sanctuary: sctry.md
       - FORGE: forge.md
