@@ -49,27 +49,27 @@ cryptography to ensure an end-to-end encryption scenario.
 ## Screenshots
 
 ### Login
-![Login](pics/forge/entrydir.png)
+![Login](pics/serv/forge/entrydir.png)
 ### Signup
-![Signup](pics/forge/makeacnt.png)
+![Signup](pics/serv/forge/makeacnt.png)
 ### Dashboard
-![Dashboard](pics/forge/dashbord.png)
+![Dashboard](pics/serv/forge/dashbord.png)
 ### Compose
-![Compose](pics/forge/makemail.png)
+![Compose](pics/serv/forge/makemail.png)
 ### Inbox
-![Inbox](pics/forge/inbxpage.png)
+![Inbox](pics/serv/forge/inbxpage.png)
 ### Reader (Inbox)
-![Reader (Inbox)](pics/forge/readinbx.png)
+![Reader (Inbox)](pics/serv/forge/readinbx.png)
 ### Trashcan
-![Trashcan](pics/forge/trashcan.png)
+![Trashcan](pics/serv/forge/trashcan.png)
 ### Reader (Trashcan)
-![Reader (Trashcan)](pics/forge/readtrsh.png)
+![Reader (Trashcan)](pics/serv/forge/readtrsh.png)
 ### Contacts
-![Contacts](pics/forge/contacts.png)
+![Contacts](pics/serv/forge/contacts.png)
 ### Logout
-![Logout](pics/forge/fglogout.png)
+![Logout](pics/serv/forge/fglogout.png)
 ### Invalid session
-![Invalid session](pics/forge/invalses.png)
+![Invalid session](pics/serv/forge/invalses.png)
 
 ## Changelog
 **NOTE** : Project follows a rolling version control model  
