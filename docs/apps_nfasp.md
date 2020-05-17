@@ -2,10 +2,10 @@
 Parses a given string through a provided non-deterministic finite automata
 
 ## String parsing
-![ExpressionCalculation](pics/nfasp/mainscrn.png)
+![ExpressionCalculation](pics/apps/nfasp/mainscrn.png)
 
 ## Dedicated help
-![ExpressionCalculation](pics/nfasp/helpscrn.png)
+![ExpressionCalculation](pics/apps/nfasp/helpscrn.png)
 
 ## How to use?
 1. Install and upgrade **virtualenv** if not already done by executing ```pip3 install virtualenv --user```
