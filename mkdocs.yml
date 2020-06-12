@@ -22,4 +22,8 @@ nav:
       - FORGE: serv_forge.md
       - SPEED: serv_speed.md
       - Data Extraction: serv_dextr.md
+  - Activities:
+      - In-site: actv_insit.md
+      - Quora: actv_quora.md
+      - Medium: actv_mdum.md
   - About me: about.md
