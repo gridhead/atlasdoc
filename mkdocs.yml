@@ -3,7 +3,7 @@ site_description: A catalog of all the applications and services I maintain
 site_author: Akashdeep Dhar
 site_url: https://atlasdoc.netlify.app
 theme:
-  name: sandstone
+  name: cosmo
 nav:
   - Start here: index.md
   - Applications:
