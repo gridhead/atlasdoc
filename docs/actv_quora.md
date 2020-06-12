@@ -1,5 +1,5 @@
 # My activity on Quora
-Last updated on 12 Jun 2020
+Last updated on 12 June 2020
 
 * My answer to [What is the best Linux Distro for GNOME?](https://www.quora.com/What-is-the-best-Linux-Distro-for-GNOME/answer/Akashdeep-Dhar-1)  
 Posted on 20 April 2020
