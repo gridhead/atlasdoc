@@ -23,8 +23,3 @@ All the projects available on this catalog are available for download totally fr
 
 * **Contribution**  
 As much as I idolize the open-source community for making me who I am, I always feel like giving back to them just like they did - unconditionally. Every project available here is free, open source and appreciates your contribution.
-
-## Blogs
-
-* [**How to enable NVIDIA as Primary GPU on an Optimus-enabled Laptop**](blog_prime.md)  
-Posted on 16th May 2020
