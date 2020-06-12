@@ -12,3 +12,6 @@ If you want to stay in touch with me, these links can be useful.
 - [My Medium account](https://medium.com/@t0xic0der)
 - [My AskFedora account](https://ask.fedoraproject.org/u/t0xic0der/)
 - [My Twitter account](https://twitter.com/ace1999dhar)
+
+## Available for hire
+Feel free to contact me if you are hiring. [Here](https://github.com/t0xic0der/atlasdoc/raw/master/docs/pdfs/12_JUN_2020.pdf) is my resume.
