@@ -1,7 +1,9 @@
 # Super Mario using OpenGL
-v0.01
 
+**v0.01**  
 Super Mario Game implemented in C++ using OpenGL and SDL.
+
+[Find the repository here](https://github.com/t0xic0der/opengl-mario)
 
 ![Screenshots](pics/apps/oglmr/sdefault.png)
 

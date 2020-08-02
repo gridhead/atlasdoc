@@ -1,6 +1,8 @@
 # RE2FA Converter
 A Python GUI application for converting regular expressions to finite automata
 
+[Find the repository here](https://github.com/t0xic0der/re2fa-converter/)
+
 ## In works
 ![ExpressionCalculation](pics/apps/re2fa/exprphot.png)
 

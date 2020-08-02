@@ -1,6 +1,8 @@
 # Foliage
 A beautiful and user-friendly GUI weather application
 
+[Find the repository here](https://github.com/t0xic0der/foliage/)
+
 ## Requirements
 1. PyQt 5
 2. Requests

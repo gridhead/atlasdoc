@@ -1,6 +1,8 @@
 # Wisdom
 A beautiful and user-friendly GUI Wikipedia application
 
+[Find the repository here](https://github.com/t0xic0der/wisdom)
+
 ## Requirements
 1. PyQt 5
 2. Wikipedia for Python

@@ -1,6 +1,8 @@
 # PharmaDB Client
 A user-friendly GUI assistant with administrator privileges for PharmaDB
 
+[Find the repository here](https://github.com/t0xic0der/PharmaDBClient)
+
 ## Getting the GUI up and running
 Make sure you have the following installed on your PC
 

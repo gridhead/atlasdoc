@@ -1,6 +1,7 @@
-# SPEED
-
+# Bazooka Share
 Secure Peer-based Environments in Equitable Decentralization
+
+[Find the repository here](https://github.com/astrosonic/bazooka-share/)
 
 ## Decentralised Union of Connected Environments (DUCE)
 

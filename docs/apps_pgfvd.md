@@ -1,7 +1,8 @@
 # Pignus Framework Vulnerability Detector
-Version 0.03
-
+**Version 0.03**  
 A Python GUI application for scanning websites for their frameworks and detecting vulnerabilities off them.
+
+[Find the repository here](https://github.com/t0xic0der/pignus-framework-vulnerability-detector)
 
 ## Usage 
 1. Install and upgrade **virtualenv** if not already done by executing ```pip3 install virtualenv --user```

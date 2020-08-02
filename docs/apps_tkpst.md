@@ -1,33 +1,25 @@
-# Welcome to Atlas
+# PharmaDB Store
+An user friendly GUI for pharmaceutical purchases for PharmaDB.
 
-## Hello
+[Find the repository here](https://github.com/t0xic0der/pharmadb-store)
 
-This is a catalog of all the applications and services that I develop and maintain. Feel free
-to browse through them and if you like one, please download and try them out. Contribute to the
-development of these applications if you find them worth your while.
+## See [PharmaDBClient](https://github.com/t0xic0der/PharmaDBClient) first.
 
-## Plans
-* **Documented** - 
-Detailed information is provided on the codebase to help you get started with contribution or 
-forking quickly and easily. Diagrams and schematics are provided wherever necessary for better
-understanding of how everything works.
-* **Supported** - 
-For a period of six months, service maintenance is provided for a project when all the bugs are
-fixed and new features are provided. Beyond this duration, a new rendition of the project would
-be worked on with much better features.
-* **Available** - 
-Applications and services are available and deployable everywhere irrespective of which region
-or timezone you belong to. As the projects are lightweight, you can pretty much install and 
-serve them from your own personal devices.
-* **Satisfaction** - 
-The projects are made in such a way that even you would agree that they look good and feel 
-effective much to your satisfaction. Furthermore, quality-of-life updates and regular bug fixes
-ensure that you keep feeling that way.
-* **Download** - 
-All the projects available on this catalog are available for download totally free-of-cost
-without any kind of hidden charges, advertisements or concealed tracking. It should be totally
-free if it is really meant to be.
-* **Contribution** - 
-As much as I idolize the open-source community for making me who I am, I always feel like giving
-back to them just like they did - unconditionally. Every project available here is free, open
-source and appreciates your contribution.
+## Getting the GUI up and running
+Make sure you have the following installed on your PC
+* Tkinter
+* Python 3 MySQL Driver
+* Python 3.6 or above
+* MySQL Community Server
+* MySQL Workbench
+* Administrator access
+* Linux based OS
+
+## Make sure
+that all the downloaded files are in the same directory.
+
+## Keep in mind
+* The application assumes your database to hosted at ```localhost``` or ```127.0.0.1```.
+* Username is taken as ```root``` and Password is taken as ```password```.
+* The default database is called ```PharmaDBTest```.
+* **If you wish to change the credentials, do so in ```connCache.txt``` file to avoid errors.**

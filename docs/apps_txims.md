@@ -1,6 +1,8 @@
 # ToxicIMS
 Inventory Management System for Information Archives
 
+[Find the repository here](https://github.com/t0xic0der/toxicims-infarc)
+
 ## Requirements
 1. PyQt 5
 2. SQLite3 for Python 3
