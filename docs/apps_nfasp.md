@@ -1,6 +1,8 @@
 # NFA-String Parser
 Parses a given string through a provided non-deterministic finite automata
 
+[Find the repository here](https://github.com/t0xic0der/nfa-string-parser/)
+
 ## String parsing
 ![ExpressionCalculation](pics/apps/nfasp/mainscrn.png)
 

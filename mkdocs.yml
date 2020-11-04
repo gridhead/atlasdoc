@@ -3,27 +3,59 @@ site_description: A catalog of all the applications and services I maintain
 site_author: Akashdeep Dhar
 site_url: https://atlasdoc.netlify.app
 theme:
-  name: cosmo
+  name: material
+  palette:
+    scheme: default
+    primary: white
+    accent: teal
+  font:
+    text: Inter
+    code: Roboto Mono
+  features:
+    - instant
+    - tabs
+    - search
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/t0xic0der
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/t0xic0der
+    - icon: fontawesome/brands/quora
+      link: https://www.quora.com/profile/Akashdeep-Dhar-1
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@t0xic0der
+    - icon: fontawesome/brands/fedora
+      link: https://fedoraproject.org/wiki/User:T0xic0der
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ace1999dhar
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/user/t0xic0der
 nav:
-  - Start here: index.md
+  - Inception:
+    - Start here: index.md
+    - About me: about.md
   - Applications:
-      - NFA-String Parser: apps_nfasp.md
-      - RE2FA Converter: apps_re2fa.md
-      - Pignus FVD: apps_pgfvd.md
-      - Pignus AIP: apps_pgaip.md
-      - Super Mario: apps_oglmr.md
-      - ToxicIMS: apps_txims.md
-      - Foliage: apps_folqt.md
-      - Wisdom: apps_wdmqt.md
-      - PharmaDB Client: apps_tkpcl.md
-      - PharmaDB Store: apps_tkpst.md
+    - NVAutoInstFedora: apps_nvaif.md
+    - NFA-String Parser: apps_nfasp.md
+    - RE2FA Converter: apps_re2fa.md
+    - Pignus FVD: apps_pgfvd.md
+    - Pignus AIP: apps_pgaip.md
+    - Super Mario: apps_oglmr.md
+    - ToxicIMS: apps_txims.md
+    - Foliage: apps_folqt.md
+    - Wisdom: apps_wdmqt.md
+    - PharmaDB Client: apps_tkpcl.md
+    - PharmaDB Store: apps_tkpst.md
   - Services:
-      - Sanctuary: serv_sctry.md
-      - FORGE: serv_forge.md
-      - SPEED: serv_speed.md
-      - Data Extraction: serv_dextr.md
+    - Syngrafias: serv_syngf.md
+    - SYSMON: serv_sysmn.md
+    - Sanctuary: serv_sctry.md
+    - FORGE: serv_forge.md
+    - Bazooka Share: serv_speed.md
   - Activities:
-      - In-site: actv_insit.md
-      - Quora: actv_quora.md
-      - Medium: actv_medum.md
-  - About me: about.md
+    - In-site: actv_insit.md
+    - Quora: actv_quora.md
+    - Medium: actv_medum.md
+    - Research: actv_rsrch.md
+    - Reddit: actv_reddt.md
