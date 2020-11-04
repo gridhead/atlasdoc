@@ -6,14 +6,15 @@ An user friendly GUI for pharmaceutical purchases for PharmaDB.
 ## See [PharmaDBClient](https://github.com/t0xic0der/PharmaDBClient) first.
 
 ## Getting the GUI up and running
-Make sure you have the following installed on your PC
+Make sure you have the following installed on your PC  
+
 * Tkinter
 * Python 3 MySQL Driver
 * Python 3.6 or above
 * MySQL Community Server
 * MySQL Workbench
 * Administrator access
-* Linux based OS
+* Any GNU/Linux OS
 
 ## Make sure
 that all the downloaded files are in the same directory.

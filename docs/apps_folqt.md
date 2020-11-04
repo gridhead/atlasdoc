@@ -13,7 +13,7 @@ A beautiful and user-friendly GUI weather application
 7. Active internet connection
 
 ## Introduction
-This is a simple, beautiful and user-friendly GUI weather application which takes OpenWeatherMap API key and the city that you are interested in to find advanced weather information of that place. 
+<p align="justify">This is a simple, beautiful and user-friendly GUI weather application which takes OpenWeatherMap API key and the city that you are interested in to find advanced weather information of that place.</p>
 
 ## Features
 At this point of time, this is the set of features that work with a pretty good waiting period.
@@ -26,9 +26,9 @@ At this point of time, this is the set of features that work with a pretty good 
 6. **Solar data** - Timezone data (in UTC offset) with sunrise and sunset local timings.
 
 ## Bugs
-1. **Unprecedented blocking** - Requests more than the given limit in free tiered OpenWeatherMap accounts result in a generalised error without an indication of blocking.
-2. **Unresolved exception** - Some search requests result in unresolved exception which are handled generally but a workaround is yet to be provided to the user.
-3. **Messed up fontfaces** - At some places, paddings and margins need to be provided judiciously in order to make sure that suspended and headed regions are visible.
+1. <p align="justify">**Unprecedented blocking** - Requests more than the given limit in free tiered OpenWeatherMap accounts result in a generalised error without an indication of blocking.</p>
+2. <p align="justify">**Unresolved exception** - Some search requests result in unresolved exception which are handled generally but a workaround is yet to be provided to the user.</p>
+3. <p align="justify">**Messed up fontfaces** - At some places, paddings and margins need to be provided judiciously in order to make sure that suspended and headed regions are visible.</p>
 
 ## Screenshots
 

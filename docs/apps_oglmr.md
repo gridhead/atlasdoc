@@ -12,20 +12,20 @@ You need `freeglut` and `SDL` libraries.
 
 ## Fedora users
 In order to install dependencies, execute the following
-```
+``` bash
 $ chmod +x fedora-dep.sh
 $ ./fedora-dep.sh
 ```
 
 ## Ubuntu users
 In order to install dependencies, execute the following
-```
+``` bash
 $ chmod +x ubuntu-dep.sh
 $ ./ubuntu-dep.sh
 ```
 
 ### Usage
-```
+``` bash
 $ git clone https://github.com/t0xic0der/opengl-mario 
 $ cd opengl-mario/src
 $ make

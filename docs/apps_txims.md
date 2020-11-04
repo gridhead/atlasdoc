@@ -10,7 +10,7 @@ Inventory Management System for Information Archives
 4. Any code editor
 
 ## Introduction
-This is a user friendly database solution for managing inventories of information archives. It uses Qt 5.12.1 GUI framework and SQLite3 database. One can easily perform CRUD operations for number of columns like **books**, **authors**, **publishers**, **categories**, **users** and much more along with possibilities of automation of operations like **lending**, **borrowing**, **transactions** etc.
+<p align="justify">This is a user friendly database solution for managing inventories of information archives. It uses Qt 5.12.1 GUI framework and SQLite3 database. One can easily perform CRUD operations for number of columns like <b>books</b>, <b>authors</b>, <b>publishers</b>, <b>categories</b>, <b>users</b> and much more along with possibilities of automation of operations like <b>lending</b>, <b>borrowing</b>, <b>transactions</b> etc.</p>
 
 ## Screenshots
 

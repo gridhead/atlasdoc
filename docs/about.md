@@ -1,7 +1,7 @@
 # About me
 
 ## Hi there! I am t0xic0der
-<p align="justify">I am a cybersecurity enthusiast with keen interests in networking, cloud computing and operating systems. I am a contributor at Fedora Project and have been developing cool application and service projects by [myself](https://github.com/t0xic0der/) and collaboratively with the [AstroSonic](https://github.com/astrosonic/) FOSS community. Along with all the development stuff, I have been exhibiting my presence in virtual platforms like [Medium](https://medium.com/@t0xic0der), [Quora](https://www.quora.com/profile/Akashdeep-Dhar-1) and [AskFedora](https://ask.fedoraproject.org/u/t0xic0der/) with my technical and not-so technical writings.</p>
+<p align="justify">I am a cybersecurity enthusiast with keen interests in networking, cloud computing and operating systems. I am a contributor at Fedora Project and have been developing cool application and service projects by <a href="https://github.com/t0xic0der/">myself</a> and collaboratively with the <a href="https://github.com/astrosonic/">AstroSonic</a> FOSS community. Along with all the development stuff, I have been exhibiting my presence in virtual platforms like <a href="https://medium.com/@t0xic0der">Medium</a>, <a href="https://www.quora.com/profile/Akashdeep-Dhar-1">Quora</a> and <a href="https://ask.fedoraproject.org/u/t0xic0der/">AskFedora</a> with my technical and not-so technical writings.</p>
 
 ## Competencies
 

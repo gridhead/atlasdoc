@@ -31,11 +31,11 @@ WebStation SYSMON was featured in to author's [Reddit article](https://www.reddi
 
 ## Notice
 1. The binary packages are architecture-bound. Pick the binary which is compatible with your system.
-    1. **`armv6`** - Raspberry Pi Zero W and other such devices. The binaries for this architecture is currently unavailable but you can simply install the daemon by following the steps provided in the "Using the script" section.
-    2. **`armhf`** - Raspberry Pi 2, Raspberry Pi 3B, Raspberry Pi 4B and other such devices. The binaries for this architecture is currently unavailable but you can simply install the daemon by following the steps provided in the "Using the script" section.
-    3. **`aarch64`** - Raspberry Pi 3B, Raspberry Pi 4B and other such devices. The binaries for this architecture is currently unavailable but you can simply install the daemon by following the steps provided in the "Using the script" section.
-    4. **`x86_64`** - Generic PCs an laptops. The binaries for this architecture are available for use and the also support "Using the script" way of installation.
-2. The script from the upstream consist of all the leading-edge changes so advanced users are actually recommended to use that over prepackaged binaries which are packaged periodically.
+    1. <p align="justify">**`armv6`** - Raspberry Pi Zero W and other such devices. The binaries for this architecture is currently unavailable but you can simply install the daemon by following the steps provided in the "Using the script" section.</p>
+    2. <p align="justify">**`armhf`** - Raspberry Pi 2, Raspberry Pi 3B, Raspberry Pi 4B and other such devices. The binaries for this architecture is currently unavailable but you can simply install the daemon by following the steps provided in the "Using the script" section.</p>
+    3. <p align="justify">**`aarch64`** - Raspberry Pi 3B, Raspberry Pi 4B and other such devices. The binaries for this architecture is currently unavailable but you can simply install the daemon by following the steps provided in the "Using the script" section.</p>
+    4. <p align="justify">**`x86_64`** - Generic PCs an laptops. The binaries for this architecture are available for use and the also support "Using the script" way of installation.</p>
+2. <p align="justify">The script from the upstream consist of all the leading-edge changes so advanced users are actually recommended to use that over prepackaged binaries which are packaged periodically.</p>
 3. I would be uploading the executable binaries very soon for the `armv6`, `armhf` and `aarch64` architectures. (Make it happen sooner by forking the project and contributing)
 
 ## Screenshots
@@ -139,4 +139,4 @@ WebStation SYSMON was featured in to author's [Reddit article](https://www.reddi
 - Scrollbar disappears in Chrome (intended behaviour) while not so on Firefox (unintended behaviour)
 
 ## Contribute
-You may request for the addition of new features in the [issues](https://github.com/t0xic0der/sysmon/issues) page but as the project is singlehandedly maintained - it might take time to develop on them. Please consider forking the repository and contributing to its development.
+<p align="justify">You may request for the addition of new features in the <a href="https://github.com/t0xic0der/sysmon/issues">issues</a> page but as the project is singlehandedly maintained - it might take time to develop on them. Please consider forking the repository and contributing to its development.</p>

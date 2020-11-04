@@ -253,4 +253,4 @@ cryptography to ensure an end-to-end encryption scenario.
   * Updated screenshots to `SCREENSHOTS.md`
 
 ## Contribute
-The project is currently in diverse development process. The codebase needs cleanup, optimization and documentation so one may find it hard to get their hands into it. Feel free to contact me at akashdeep.dhar@gmail.com if you wish to contribute.
+<p align="justify">The project is currently in diverse development process. The codebase needs cleanup, optimization and documentation so one may find it hard to get their hands into it. Feel free to contact me at akashdeep.dhar@gmail.com if you wish to contribute.</p>
