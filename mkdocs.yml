@@ -6,11 +6,11 @@ theme:
   name: material
   palette:
     scheme: default
-    primary: white
+    primary: teal
     accent: teal
   font:
-    text: Inter
-    code: Roboto Mono
+    text: IBM Plex Sans
+    code: IBM Plex Mono
   features:
     - instant
     - tabs
@@ -59,3 +59,7 @@ nav:
     - Medium: actv_medum.md
     - Research: actv_rsrch.md
     - Reddit: actv_reddt.md
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.keys

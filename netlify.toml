@@ -1,6 +1,6 @@
 [build]
 publish = "atlasdoc"
 command = """
-pip3 install mkdocs-material &&
+pip3 install -r requirements.txt &&
 mkdocs build -d atlasdoc
 """
