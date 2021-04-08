@@ -63,4 +63,4 @@ If you want to stay in touch with me, these links can be useful.
 - [My Reddit account](https://www.reddit.com/user/t0xic0der)
 
 ## Available for hire
-Feel free to contact me if you are hiring. [Here](https://raw.githubusercontent.com/t0xic0der/atlasdoc/master/docs/pdfs/01_OCT_2020.pdf) is my resume.
+Feel free to contact me if you are hiring. [Here](https://github.com/t0xic0der/atlasdoc/raw/master/docs/pdfs/RESUME_Akashdeep_Dhar_08_APR_2021_R2.pdf) is my resume.
