@@ -48,7 +48,10 @@ nav:
     - PharmaDB Client: apps_tkpcl.md
     - PharmaDB Store: apps_tkpst.md
   - Services:
+    - SV Frontend: serv_svfrt.md
+    - SV Driver: serv_svdrv.md
     - Syngrafias: serv_syngf.md
+    - Sanctuary Zero: serv_sczer.md
     - SYSMON: serv_sysmn.md
     - Sanctuary: serv_sctry.md
     - FORGE: serv_forge.md

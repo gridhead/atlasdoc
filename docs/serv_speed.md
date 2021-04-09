@@ -3,6 +3,13 @@ Secure Peer-based Environments in Equitable Decentralization
 
 [Find the repository here](https://github.com/astrosonic/bazooka-share/)
 
+<p align="center">
+    <img src="https://img.shields.io/github/issues/astrosonic/bazooka-share?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/forks/astrosonic/bazooka-share?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/stars/astrosonic/bazooka-share?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/astrosonic/bazooka-share?style=flat-square&logo=appveyor&color=teal">
+</p>
+
 ## Decentralised Union of Connected Environments (DUCE)
 
 ### Base program for node implementation v0.1

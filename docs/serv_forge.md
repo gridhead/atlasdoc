@@ -3,6 +3,13 @@ Forensics Oriented Reporting Group Under Encryption
 
 [Find the repository here](https://github.com/t0xic0der/forge)
 
+<p align="center">
+    <img src="https://img.shields.io/github/issues/astrosonic/forge?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/forks/astrosonic/forge?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/stars/astrosonic/forge?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/astrosonic/forge?style=flat-square&logo=appveyor&color=teal">
+</p>
+
 ## Achievement
 > We made it to the top 10 projects in the 2020 HackTheCrisisIndia IDEAthon
 
