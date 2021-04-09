@@ -3,6 +3,13 @@ Parses a given string through a provided non-deterministic finite automata
 
 [Find the repository here](https://github.com/t0xic0der/nfa-string-parser/)
 
+<p align="center">
+    <img src="https://img.shields.io/github/issues/t0xic0der/nfa-string-parser?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/forks/t0xic0der/nfa-string-parser?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/stars/t0xic0der/nfa-string-parser?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/t0xic0der/nfa-string-parser?style=flat-square&logo=appveyor&color=teal">
+</p>
+
 ## String parsing
 ![ExpressionCalculation](pics/apps/nfasp/mainscrn.png)
 

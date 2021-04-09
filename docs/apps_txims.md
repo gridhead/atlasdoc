@@ -3,6 +3,13 @@ Inventory Management System for Information Archives
 
 [Find the repository here](https://github.com/t0xic0der/toxicims-infarc)
 
+<p align="center">
+    <img src="https://img.shields.io/github/issues/t0xic0der/toxicims-infarc?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/forks/t0xic0der/toxicims-infarc?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/stars/t0xic0der/toxicims-infarc?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/t0xic0der/toxicims-infarc?style=flat-square&logo=appveyor&color=teal">
+</p>
+
 ## Requirements
 1. PyQt 5
 2. SQLite3 for Python 3

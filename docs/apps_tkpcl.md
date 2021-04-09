@@ -3,6 +3,13 @@ A user-friendly GUI assistant with administrator privileges for PharmaDB
 
 [Find the repository here](https://github.com/t0xic0der/PharmaDBClient)
 
+<p align="center">
+    <img src="https://img.shields.io/github/issues/t0xic0der/PharmaDBClient?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/forks/t0xic0der/PharmaDBClient?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/stars/t0xic0der/PharmaDBClient?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/t0xic0der/PharmaDBClient?style=flat-square&logo=appveyor&color=teal">
+</p>
+
 ## Getting the GUI up and running
 Make sure you have the following installed on your PC
 

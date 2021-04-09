@@ -2,10 +2,15 @@
 v0.3.5 (23 September 2020) (COPR pending) and v0.3.0 (04 June 2020) (Executable binary)  
 A CLI tool which lets you install proprietary NVIDIA drivers and much more easily on Fedora 32 and above
 
-[Find the repository here](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora)
+<p align="center">
+    <img src="https://img.shields.io/github/issues/t0xic0der/nvidia-auto-installer-for-fedora?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/forks/t0xic0der/nvidia-auto-installer-for-fedora?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/stars/t0xic0der/nvidia-auto-installer-for-fedora?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/t0xic0der/nvidia-auto-installer-for-fedora?style=flat-square&logo=appveyor&color=teal">
+</p>
 
 ## Screenshots
-Find all the shiny stuff [here](https://github.com/t0xic0der/nvidia-auto-installer-for-fedora/blob/master/SCREENSHOTS.md).
+Find all the shiny stuff [here](SCREENSHOTS.md).
 
 ## Requirements
 * Active internet connection
@@ -20,59 +25,32 @@ Find all the shiny stuff [here](https://github.com/t0xic0der/nvidia-auto-install
 
 ## Modes of installation
 Active internet connection and superuser privilege is required to execute the following installation modes.
-
--   This mode enables the RPM Fusion NVIDIA drivers repository.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --rpmadd
-    ```
--   This mode simply installs the NVIDIA drivers (with x86_64 deps only). Enabling the RPM Fusion NVIDIA drivers repository is mandatory before doing this.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --driver
-    ```
--   This mode installs only the x86 libraries for Xorg. Enabling the RPM Fusion NVIDIA drivers repository and installing the basic drivers are mandatory before doing this.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --x86lib
-    ```
--   This mode enables the official NVIDIA repository for CUDA software.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --nvrepo
-    ```
--   This mode installs only the CUDA support softwares. Enabling the RPM Fusion NVIDIA drivers and NVIDIA official repository, and installing the basic drivers are mandatory before doing this.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --plcuda
-    ```
--   This mode installs only the FFMPEG accleration. Enabling the RPM Fusion NVIDIA drivers repository and installing the basic drivers are mandatory before doing this.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --ffmpeg
-    ```
--   This mode installs only the Vulkan renderer. Enabling the RPM Fusion NVIDIA drivers repository and installing the basic drivers are mandatory before doing this.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --vulkan
-    ```
--   This mode installs only the VDPAU/VAAPI acceleration. Enabling the RPM Fusion NVIDIA drivers repository and installing the basic drivers are mandatory before doing this.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --vidacc
-    ```
--   This mode installs all the above packages. (Not been implemented yet)
-    ``` bash
-    sudo ./NVAutoInstFedora32 --getall
-    ```
--   This mode allows you to check the current user privilege level. You can use this tool effectively only when you have logged in as a root or sudo user.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --cheksu
-    ```
--   This mode allows you to check your hardware and host compatiblity. The tool would check your hardware and host and tell if your device is supported by the tool or not.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --compat
-    ```
--   This mode would show the tool version and exit out.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --version
-    ```
--   This mode would show the help message and exit out.
-    ``` bash
-    sudo ./NVAutoInstFedora32 --help
-    ```
+- **`sudo ./NVAutoInstFedora32 --rpmadd`**  
+This mode enables the RPM Fusion NVIDIA drivers repository.
+- **`sudo ./NVAutoInstFedora32 --driver`**  
+This mode simply installs the NVIDIA drivers (with x86_64 deps only). Enabling the RPM Fusion NVIDIA drivers repository is mandatory before doing this.
+- **`sudo ./NVAutoInstFedora32 --x86lib`**  
+This mode installs only the x86 libraries for Xorg. Enabling the RPM Fusion NVIDIA drivers repository and installing the basic drivers are mandatory before doing this.
+- **`sudo ./NVAutoInstFedora32 --nvrepo`**  
+This mode enables the official NVIDIA repository for CUDA software.
+- **`sudo ./NVAutoInstFedora32 --plcuda`**  
+This mode installs only the CUDA support softwares. Enabling the RPM Fusion NVIDIA drivers and NVIDIA official repository, and installing the basic drivers are mandatory before doing this.
+- **`sudo ./NVAutoInstFedora32 --ffmpeg`**  
+This mode installs only the FFMPEG accleration. Enabling the RPM Fusion NVIDIA drivers repository and installing the basic drivers are mandatory before doing this.
+- **`sudo ./NVAutoInstFedora32 --vulkan`**  
+This mode installs only the Vulkan renderer. Enabling the RPM Fusion NVIDIA drivers repository and installing the basic drivers are mandatory before doing this.
+- **`sudo ./NVAutoInstFedora32 --vidacc`**  
+This mode installs only the VDPAU/VAAPI acceleration. Enabling the RPM Fusion NVIDIA drivers repository and installing the basic drivers are mandatory before doing this.
+- **`sudo ./NVAutoInstFedora32 --getall`**  
+This mode installs all the above packages. (Not been implemented yet)
+- **`sudo ./NVAutoInstFedora32 --cheksu`**  
+This mode allows you to check the current user privilege level. You can use this tool effectively only when you have logged in as a root or sudo user.
+- **`sudo ./NVAutoInstFedora32 --compat`**  
+This mode allows you to check your hardware and host compatiblity. The tool would check your hardware and host and tell if your device is supported by the tool or not.
+- **`sudo ./NVAutoInstFedora32 --version`**  
+This mode would show the tool version and exit out.
+- **`sudo ./NVAutoInstFedora32 --help`**  
+This mode would show the help message and exit out.
 
 ## Note
 * Active internet connection is required to download drivers.
@@ -95,4 +73,4 @@ Active internet connection and superuser privilege is required to execute the fo
 * Native support for PRIME configuration on Optimus.
 
 ## Disclaimer
-<p align="justify">This tool has been tried and tested multiple times and is expected to work flawlessly in Fedora Workstation 32 or above. It has not been tested on any of the spins yet so proceed with caution. While the chances of things going wrong is pretty slim but still you would want to make backups, should things do not go as expected. As always, you are choosing to use this tool at your will and you cannot hold me responsible for any mishap there may occur due to the misuse of this tool.</p>
+This tool has been tried and tested multiple times and is expected to work flawlessly in Fedora Workstation 32 or above. It has not been tested on any of the spins yet so proceed with caution. While the chances of things going wrong is pretty slim but still you would want to make backups, should things do not go as expected. As always, you are choosing to use this tool at your will and you cannot hold me responsible for any mishap there may occur due to the misuse of this tool.
