@@ -3,6 +3,13 @@ A Python GUI application for converting regular expressions to finite automata
 
 [Find the repository here](https://github.com/t0xic0der/re2fa-converter/)
 
+<p align="center">
+    <img src="https://img.shields.io/github/issues/t0xic0der/re2fa-converter?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/forks/t0xic0der/re2fa-converter?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/stars/t0xic0der/re2fa-converter?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/t0xic0der/re2fa-converter?style=flat-square&logo=appveyor&color=teal">
+</p>
+
 ## In works
 ![ExpressionCalculation](pics/apps/re2fa/exprphot.png)
 

@@ -4,6 +4,13 @@ A Python GUI application for scanning websites for their frameworks and detectin
 
 [Find the repository here](https://github.com/t0xic0der/pignus-framework-vulnerability-detector)
 
+<p align="center">
+    <img src="https://img.shields.io/github/issues/t0xic0der/pignus-framework-vulnerability-detector?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/forks/t0xic0der/pignus-framework-vulnerability-detector?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/stars/t0xic0der/pignus-framework-vulnerability-detector?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/t0xic0der/pignus-framework-vulnerability-detector?style=flat-square&logo=appveyor&color=teal">
+</p>
+
 ## Usage 
 1. Install and upgrade **virtualenv** if not already done by executing ```pip3 install virtualenv --user```
 2. Clone the repository on your local drive and make it your current working directory.

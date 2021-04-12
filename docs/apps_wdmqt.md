@@ -3,6 +3,13 @@ A beautiful and user-friendly GUI Wikipedia application
 
 [Find the repository here](https://github.com/t0xic0der/wisdom)
 
+<p align="center">
+    <img src="https://img.shields.io/github/issues/t0xic0der/pharmadb-store?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/forks/t0xic0der/pharmadb-store?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/stars/t0xic0der/pharmadb-store?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/t0xic0der/pharmadb-store?style=flat-square&logo=appveyor&color=teal">
+</p>
+
 ## Requirements
 1. PyQt 5
 2. Wikipedia for Python

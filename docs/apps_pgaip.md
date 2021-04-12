@@ -4,6 +4,13 @@ A Python GUI application for scanning URLs and domains for safety
 
 [Find the repository here](https://github.com/t0xic0der/pignus-agent-for-internet-protection)
 
+<p align="center">
+    <img src="https://img.shields.io/github/issues/t0xic0der/pignus-agent-for-internet-protection?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/forks/t0xic0der/pignus-agent-for-internet-protection?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/stars/t0xic0der/pignus-agent-for-internet-protection?style=flat-square&logo=appveyor&color=teal">
+    <img src="https://img.shields.io/github/license/t0xic0der/pignus-agent-for-internet-protection?style=flat-square&logo=appveyor&color=teal">
+</p>
+
 ## Usage 
 1.  Install and upgrade **virtualenv** if not already done by executing ```pip3 install virtualenv --user```
 2.  Clone the repository on your local drive and make it your current working directory.

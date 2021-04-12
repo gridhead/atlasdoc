@@ -36,6 +36,9 @@ nav:
     - Start here: index.md
     - About me: about.md
   - Applications:
+    - Fetch: apps_fetch.md
+    - Wisdom CLI: apps_wscli.md
+    - Prudence: apps_prdnc.md
     - NVAutoInstFedora: apps_nvaif.md
     - NFA-String Parser: apps_nfasp.md
     - RE2FA Converter: apps_re2fa.md
